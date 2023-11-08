@@ -3,6 +3,9 @@ shellcode injection
 # Environnement
   `$uname -a
 Linux 2023 armv8l Android `
+  ` ~ $> Device model:
+  RMX3231`
+  
 # requirements
   `$nasm --v
 NASM version 2.16.01 compiled on Dec 22 2022`
@@ -18,5 +21,6 @@ GNU ld (GNU Binutils) 2.41`
   `~ $> as -v
 GNU assembler version 2.41 (arm-linux-androideabi) using BFD version (GNU Binutils) 2.41`
 
+  `~ $> clang/stable 17.0.4 arm `
 
 
