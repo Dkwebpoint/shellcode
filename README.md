@@ -7,6 +7,9 @@ Linux 2023 armv8l Android `
   `~ $> Device model:
   RMX3231`
 
+  `~ $> Packages CPU architecture:
+arm
+
 `termux-tools/stable 1.39.4`
 
 # requirements
