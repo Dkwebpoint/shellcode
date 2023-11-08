@@ -29,4 +29,8 @@ GNU assembler version 2.41 (arm-linux-androideabi) using BFD version (GNU Binuti
 
   `~ $> clang/stable 17.0.4 arm `
 
+  ` $> gcc -v
+clang version 16.0.6
+Target: armv7a-unknown-linux-android24
+Thread model: posix `
 
