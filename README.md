@@ -5,7 +5,9 @@ shellcode injection
 Linux 2023 armv8l Android `
   ` ~ $> Device model:
   RMX3231`
-  
+
+`termux-tools/stable 1.39.4`
+
 # requirements
   `$nasm --v
 NASM version 2.16.01 compiled on Dec 22 2022`
