@@ -1,5 +1,5 @@
 # Shellcode développement 
-shellcode injection 
+  shellcode injection 
 # Environnement
   ` ~ $> uname -a
 Linux 2023 armv8l Android `
@@ -8,9 +8,9 @@ Linux 2023 armv8l Android `
   RMX3231`
 
   `~ $> Packages CPU architecture:
-arm
+  arm `
 
-`termux-tools/stable 1.39.4`
+  `termux-tools/stable 1.39.4 `
 
 # requirements
   ` ~ $> nasm --v
