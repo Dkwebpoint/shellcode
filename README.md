@@ -65,10 +65,7 @@ _start:
 ~ $> ld --help
 --- snip --
 -N, --omagic        Do not page align data, do not make text readonly.
-![ Use ld -N ](https://github.com/Dkwebpoint/shellcode/blob/be42d7cafd5f195efc91ec5d1cd4022ccbb6128e/IMG_20231109_055637.jpg)
-
-
 ~ $> ld -N shell.o -o shell
-
 ```
+![ Use ld -N ](https://github.com/Dkwebpoint/shellcode/blob/be42d7cafd5f195efc91ec5d1cd4022ccbb6128e/IMG_20231109_055637.jpg)
 
