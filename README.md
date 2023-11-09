@@ -68,5 +68,5 @@ _start:
 
 ~ $> ld -N shell.o -o shell
 
-
 ```
+
