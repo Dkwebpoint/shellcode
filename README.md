@@ -29,7 +29,7 @@ GNU assembler version 2.41 (arm-linux-androideabi) using BFD version (GNU Binuti
 
   `~ $> clang/stable 17.0.4 arm `
 
-  ` $> gcc -v
+  `~ $> gcc -v
 clang version 16.0.6
 Target: armv7a-unknown-linux-android24
 Thread model: posix `
@@ -58,4 +58,15 @@ _start:
 .ascii "/bin/shX"
 ```
 
+# Compile and execute:
 
+```
+~ $> as shell.s -o shell.o
+~$ ld --help
+--- snip --
+-N, --omagic        Do not page align data, do not make text readonly.
+
+~ $> ld -N shell.o -o shell
+
+
+```
