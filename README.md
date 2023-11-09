@@ -68,4 +68,9 @@ _start:
 ~ $> ld -N shell.o -o shell
 ```
 ![ Use ld -N ](https://github.com/Dkwebpoint/shellcode/blob/be42d7cafd5f195efc91ec5d1cd4022ccbb6128e/IMG_20231109_055637.jpg)
-
+# Extract the shellcode
+```
+~ $> objcopy -O binary shell shell.bin
+~ $> hexdump -v -e '"\\""x" 1/1 "%02x" ""' shell.bin               $>\x01\x30\x8f\xe2\x13\xff\x2f\xe1\x02\xa0\x49\x40\x52\x40\xc2\x71\x0b\x 
+```
+![extrct the shellcode]()
