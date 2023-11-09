@@ -62,7 +62,7 @@ _start:
 
 ```
 ~ $> as shell.s -o shell.o
-~$ ld --help
+~ $> ld --help
 --- snip --
 -N, --omagic        Do not page align data, do not make text readonly.
 
