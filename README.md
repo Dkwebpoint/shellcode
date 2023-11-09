@@ -73,4 +73,4 @@ _start:
 ~ $> objcopy -O binary shell shell.bin
 ~ $> hexdump -v -e '"\\""x" 1/1 "%02x" ""' shell.bin               $>\x01\x30\x8f\xe2\x13\xff\x2f\xe1\x02\xa0\x49\x40\x52\x40\xc2\x71\x0b\x 
 ```
-![extrct the shellcode]()
+![extrct the shellcode](https://github.com/Dkwebpoint/shellcode/blob/702defc0e20912539f6ecb994810f9c96dc78e65/IMG_20231109_143924.jpg)
