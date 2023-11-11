@@ -71,6 +71,11 @@ _start:
 # Extract the shellcode
 ```
 ~ $> objcopy -O binary shell shell.bin
-~ $> hexdump -v -e '"\\""x" 1/1 "%02x" ""' shell.bin               $>\x01\x30\x8f\xe2\x13\xff\x2f\xe1\x02\xa0\x49\x40\x52\x40\xc2\x71\x0b\x 
+~ $> hexdump -v -e '"\\""x" 1/1 "%02x" ""' shell.bin               $>\x01\x30\x8f\xe2\x13\xff\x2f\xe1\x02\xa0\x49\x40\x52\x40\xc2\x71\x0b\x27\x01\xdf\x2f\x62\x69\x6e\x2f\x73\x68\x58
 ```
 ![extrct the shellcode](https://github.com/Dkwebpoint/shellcode/blob/702defc0e20912539f6ecb994810f9c96dc78e65/IMG_20231109_143924.jpg)
+
+# Shellcode tester 
+
+create a file [ShellTester.c]()
+
