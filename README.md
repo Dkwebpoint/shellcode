@@ -146,6 +146,9 @@ int main() {
 
 ```
 ~ $> gcc -o shelltester -z execstack ShellTester.c
+
+~ $> ./shelltester
+
 ```
 
 
