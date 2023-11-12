@@ -192,3 +192,9 @@ else:
 
 discard munmap(tstptr, sizeof payload)
 ```
+```
+~ $> nim compile shelltester.nim
+~ $> ./shelltester
+```
+
+[nim shelltester programme ]()
